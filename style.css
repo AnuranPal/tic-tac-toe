@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Potta+One&display=swap');
+
+html{
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 800;  
+}
+
+h1, h2{  
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#e60000, #ff0000,#ff6600);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+h1{
+  line-height: 40px;
+  font-size:40px;
+}
+h2 {
+  line-height: 25px;
+  font-size:25px;
+}
+
+.width-medium{
+  max-width:250px;
+}
+.align-center {    
+  text-align: center;
+}
+.flex-center{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.flex-space-around{
+  justify-content:space-around!important;
+}
+
+.flex-column{
+  flex-direction:column;
+}
+
+.margin {
+  margin: 20px;
+}
+.margin-small{
+  margin:12px;
+}
+.margin-left-small{
+  margin-left:2px;
+}
+.no-margin-bottom{
+  margin-bottom:0px!important
+}
+.no-margin-horizontal{
+  margin-left:0px!important;
+  margin-right:0px!important;
+}
+.margin-auto {
+  margin: auto;
+}
+button {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: inherit; 
+  box-shadow:1px 2px #919191;
+  background-image: linear-gradient(to right, #a6a6a6, #c7c3c3, #e0dcdc, #ebe8e8);
+  font-weight: 800;  
+  border: 0px;
+  height: 40px;
+  width:115px;
+  padding: 5px;
+  border-radius: 20px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase; 
+}
+button:hover{
+  background-image: linear-gradient(to right, #a6a6a6, #c7c3c3, #e0dcdc, #cccccc);
+}
+button:hover > svg circle{
+  stroke: blue;
+}
+button:hover > svg path{
+  fill: red;
+}
+button svg{
+  margin-right:5px;
+}
+.symbol{
+  cursor: pointer;
+}
+.symbol:hover{
+  background-color:#F0F0F0;
+  border-radius:6px;
+}
+.symbol.active{
+  background-color:#cccccc;
+  border-radius:6px;
+}
+
+.checkbox{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  height:16px;
+  width:16px;
+  margin-bottom:-1px;
+  background: white;
+  border: 2px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 0;
+}
+.checkbox:checked{
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='15' width='15'%3E%3Cpath d='M2 5 L5 10 L10 3' stroke='blue' stroke-width='2' stroke-linecap='round' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
