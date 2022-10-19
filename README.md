@@ -5,5 +5,6 @@ A simple web app written in jquery for playing classic tic-tac-toe game.
 
 
 **How To play**
+
 Just Download the code, unzip it and click on the index.html. It will open this web app in browser.
 And Enjoy playing Tic-Tac-Toe :smiley:
